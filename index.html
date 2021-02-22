@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+<link rel="stylesheet" href="konwxml.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script>
+function IsEmpty() { 
+	if(!document.getElementById('file').value) {
+   		alert("Plik zostanie przetworzony");
+	}
+} 
+</script>
+</head>
+<body>
+   <div class='d1'>Konwerter xml</div>
+  <form action="konwerter.php" method="POST" ENCTYPE="multipart/form-data" onsubmit="javascript:return IsEmpty()">
+ 
+   <input class ="myButton"  type="file" accept=".xml" name="plik" id="file" required/><br/>
+   <input class ="myButton"  type="submit" value="Wyślij plik"/>
+</form>
+</body>
+</html>

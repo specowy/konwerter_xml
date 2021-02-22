@@ -1,0 +1,15 @@
+a:link, a:visited {
+  background-color: #46cb18;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: #88d969;}
+    #plik{text-decoration: underline;  
+}
+div{margin-top: 20px;}
+.buttonek{margin-top:200px;}

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import "compass/css3";
+@import url(https://fonts.googleapis.com/css?family=Istok+Web:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+html {
+    height: 100%;
+}
+
+body {
+	
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 4em;
+    color: black;
+    background: -webkit-linear-gradient(#e5eec1, #a2d4ab, #3eaca8, #547a82, #5a5050);
+    background: linear-gradient(#e5eec1, #a2d4ab, #3eaca8, #547a82, #5a5050);
+    background-attachment: fixed;
+    background-position: center;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+body * {
+	box-sizing: border-box;
+}
+form {	font:5em;
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 200px;
+	padding: 20px;
+	border: 15px solid #B9BBB6;
+	border-radius: 3px;
+	box-shadow: 0 0 12px rgba(0,0,0,0.3);
+	background: #3eaca8;
+}
+form .field {
+	margin-bottom: 10px;
+}
+form label {
+	color: #FCD271;
+}
+form input {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #39550e;
+	border-radius: 3px;
+	margin-top: 5px;
+}
+.d1 {
+   width: 100%;
+    text-align: center;
+   margin: 0 auto;
+}
+
+input[type=submit]{
+font-size: 15px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+
